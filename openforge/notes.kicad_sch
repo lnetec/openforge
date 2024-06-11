@@ -1,0 +1,753 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "01478e3d-58c3-4ed1-bf36-bee13a363047")
+	(paper "B")
+	(title_block
+		(title "OpenForge Cover Page")
+	)
+	(lib_symbols)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 232.41 50.8 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0646a8d3-3216-4284-82e5-4a0b33f24518")
+	)
+	(text_box "PROCESSOR 1 OF 3, JTAG HEADER"
+		(exclude_from_sim no)
+		(at 248.92 50.8 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0a0c0ab6-670d-4290-9146-031282582444")
+	)
+	(text_box "11 June 24"
+		(exclude_from_sim no)
+		(at 156.21 92.71 0)
+		(size 21.59 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0bd60847-86a0-45a4-8d33-2129fa4c6d5a")
+	)
+	(text_box "Initial release"
+		(exclude_from_sim no)
+		(at 53.34 92.71 0)
+		(size 102.87 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0f7aa1ff-0ba0-4bca-bce2-22207e9481db")
+	)
+	(text_box "COVER PAGE"
+		(exclude_from_sim no)
+		(at 248.92 35.56 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1723e0a0-8c1c-4398-8613-7f691cf01e75")
+	)
+	(text_box "7"
+		(exclude_from_sim no)
+		(at 232.41 81.28 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "187f3e91-d030-49ae-8482-abc588deb637")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 232.41 35.56 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2830beed-1a89-4bca-8a80-fe34e5531b3c")
+	)
+	(text_box "11"
+		(exclude_from_sim no)
+		(at 232.41 110.49 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3844585a-1b53-499d-a77d-9a520549c1bd")
+	)
+	(text_box "6"
+		(exclude_from_sim no)
+		(at 232.41 73.66 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "409fbd0a-e8be-489e-861a-ef4d0632506a")
+	)
+	(text_box "8"
+		(exclude_from_sim no)
+		(at 232.41 88.9 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4348de60-c40e-46a5-9ce3-645ddc557c0f")
+	)
+	(text_box "PROCESSOR 2 OF 3, USB PORTS"
+		(exclude_from_sim no)
+		(at 248.92 58.42 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4683a84f-556a-459a-b2da-59daa85d097c")
+	)
+	(text_box "1. On BBB, pin A2 VDD_MPU_MON is not connected, as per datasheet if not used\n   should be connected to VDD_MPU.\n\n2. Ethernet LAN8710 phy pins do not match straight signal.\n   Assuming MDIX will take care.\n\n3. On BBB M5, M15, F16, P18 are open - not connected to NC.\n\n4. Label SYS_RESETn present only on jtag connector, added label to coonect\n   jtag reset to global SYS_RESETn to AM335X pin A10.\n\n5. In LED,Configuration and Reset sheet Q1 and Q2 can have base resistors.\n   This will enable replace Q1,Q2 with transistors not having internal base resistor."
+		(exclude_from_sim no)
+		(at 40.64 35.56 0)
+		(size 151.13 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "4800524f-c27f-46e8-827b-849e4b9e1352")
+	)
+	(text_box "PROCESSOR 3 OF 3"
+		(exclude_from_sim no)
+		(at 248.92 66.04 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4a36f94d-371a-4b2d-9efe-f14416cc8188")
+	)
+	(text_box "By"
+		(exclude_from_sim no)
+		(at 177.8 85.09 0)
+		(size 13.97 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "5f6b9880-a6b9-462d-bdfa-fa771c768564")
+	)
+	(text_box "9"
+		(exclude_from_sim no)
+		(at 232.41 96.52 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "60a129c6-3128-4ff3-ba0f-6b5c02629420")
+	)
+	(text_box "0.1"
+		(exclude_from_sim no)
+		(at 40.64 92.71 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "626d6d06-01f0-4764-a75d-e338a97dc35e")
+	)
+	(text_box "DDR3 MEMORY"
+		(exclude_from_sim no)
+		(at 248.92 81.28 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6b8dd8c1-cdc7-40da-8a0f-b7b208b2a0ce")
+	)
+	(text_box "Observations with Beaglebone C3 schematics"
+		(exclude_from_sim no)
+		(at 40.64 27.94 0)
+		(size 151.13 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "70e20603-df49-4d08-8265-51c4fad94e18")
+	)
+	(text_box "4"
+		(exclude_from_sim no)
+		(at 232.41 58.42 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7ea9ac27-b3da-477b-8f15-cb26ec72644a")
+	)
+	(text_box "5"
+		(exclude_from_sim no)
+		(at 232.41 66.04 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "85f5be0a-38a2-4fea-93d5-ca2c8243e452")
+	)
+	(text_box "bal"
+		(exclude_from_sim no)
+		(at 177.8 92.71 0)
+		(size 13.97 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "874a56d8-dd3e-46ac-a0bf-09f089e97734")
+	)
+	(text_box "Date"
+		(exclude_from_sim no)
+		(at 156.21 85.09 0)
+		(size 21.59 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "908c5ce9-0580-4f49-990c-1c68ae0a4a72")
+	)
+	(text_box "POWER MANAGEMENT"
+		(exclude_from_sim no)
+		(at 248.92 43.18 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "91d07a60-8b00-4770-94f8-ed6a762b08e7")
+	)
+	(text_box "eMMC FLASH"
+		(exclude_from_sim no)
+		(at 248.92 88.9 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9c8347ce-9508-49a3-b05e-0e36746f4878")
+	)
+	(text_box "Description"
+		(exclude_from_sim no)
+		(at 53.34 85.09 0)
+		(size 102.87 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "9d8cb498-ce58-4737-b711-5524316cc73d")
+	)
+	(text_box "Rev"
+		(exclude_from_sim no)
+		(at 40.64 85.09 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "a6afd9b4-5af9-49b9-a9ec-580ee750fc08")
+	)
+	(text_box "10"
+		(exclude_from_sim no)
+		(at 232.41 104.14 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b19f6da7-60ad-4c12-8f4d-b68b05030c19")
+	)
+	(text_box "10/100 ETHERNET"
+		(exclude_from_sim no)
+		(at 248.92 96.52 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b35bf8b4-3919-4e28-b153-d346317b793f")
+	)
+	(text_box "HDMI FRAMER"
+		(exclude_from_sim no)
+		(at 248.92 104.14 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bbcb6383-13b3-41d6-b7a4-750eb42a47d1")
+	)
+	(text_box "Page No"
+		(exclude_from_sim no)
+		(at 232.41 27.94 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c0aab601-1536-4b44-bff4-e6ac494381bd")
+	)
+	(text_box "This schematic is *NOT SUPPORTED* and DOES NOT constitute a\nreference design. Only \"community\" support is allowed.\n\nTHERE IS NO WARRANTY FOR THIS DESIGN, TO THE EXTENT\nPERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED\nIN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\nPROVIDE THE DESIGN \"AS IS\" WITHOUT WARRANTY OF ANY KIND,\nEITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,\nTHE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\nPARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND\nPERFORMANCE OF THE DESIGN IS WITH YOU. SHOULD THE DESIGN\nPROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY\nSERVICING, REPAIR OR CORRECTION."
+		(exclude_from_sim no)
+		(at 232.41 130.81 0)
+		(size 115.57 36.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c769a503-ff74-4d29-a0e4-00897a8dbb39")
+	)
+	(text_box "Schematic Page"
+		(exclude_from_sim no)
+		(at 248.92 27.94 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "c93396b0-8e07-4854-9878-df48da1212cf")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 232.41 43.18 0)
+		(size 16.51 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d85ca707-a5d0-4cdf-8258-5f2da51b2940")
+	)
+	(text_box "EXP CONN, uSD"
+		(exclude_from_sim no)
+		(at 248.92 110.49 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d9cfca0d-f389-47c1-b41a-c2f9d8934687")
+	)
+	(text_box "LED, CONFIGURATION AND BUTTON"
+		(exclude_from_sim no)
+		(at 248.92 73.66 0)
+		(size 99.06 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.4064)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e4057c56-59dc-4e8e-8afa-3ece86a1ed4c")
+	)
+)
