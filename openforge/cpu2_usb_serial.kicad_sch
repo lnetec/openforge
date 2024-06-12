@@ -12924,7 +12924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:ZCZ0324A"
 			(at 303.53 154.94 0)
 			(effects
 				(font
@@ -14030,7 +14030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DCT8"
 			(at 146.05 153.67 0)
 			(effects
 				(font
@@ -14252,7 +14252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.392 100.33 90)
 			(effects
 				(font
@@ -14386,7 +14386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.38 232.918 90)
 			(effects
 				(font
@@ -14520,7 +14520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DRY6"
 			(at 162.56 292.1 0)
 			(effects
 				(font
@@ -14601,7 +14601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 194.818 90)
 			(effects
 				(font
@@ -14669,7 +14669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DGN8_1P89X1P57"
 			(at 107.95 273.05 0)
 			(effects
 				(font
@@ -14979,7 +14979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.342 284.48 90)
 			(effects
 				(font
@@ -15113,7 +15113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.38 222.758 90)
 			(effects
 				(font
@@ -15180,7 +15180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 192.278 90)
 			(effects
 				(font
@@ -15512,7 +15512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DRY6"
 			(at 320.04 292.1 0)
 			(effects
 				(font
@@ -15596,7 +15596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 94.742 264.16 90)
 			(effects
 				(font
@@ -16023,7 +16023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 189.738 90)
 			(effects
 				(font
@@ -16159,7 +16159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.992 110.49 90)
 			(effects
 				(font
@@ -16363,7 +16363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.392 88.9 90)
 			(effects
 				(font
@@ -16630,7 +16630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.872 163.83 90)
 			(effects
 				(font
@@ -16698,7 +16698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 261.62 153.67 0)
 			(effects
 				(font
@@ -16762,7 +16762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 219.71 254.508 90)
 			(effects
 				(font
@@ -16832,7 +16832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 258.572 77.47 90)
 			(effects
 				(font
@@ -16900,7 +16900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.38 210.058 90)
 			(effects
 				(font
@@ -17235,7 +17235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.38 197.358 90)
 			(effects
 				(font
@@ -17438,7 +17438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 346.71 133.858 90)
 			(effects
 				(font
@@ -17704,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 187.198 90)
 			(effects
 				(font

@@ -4065,6 +4065,12 @@
 		(uuid "335377d2-28c1-4fb4-b25c-1ceb06b9a267")
 	)
 	(junction
+		(at 113.03 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34bc9554-8d61-41ba-b9bd-acf1f67a8df3")
+	)
+	(junction
 		(at 313.69 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4093,6 +4099,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56d4c043-5269-47c7-853e-d1b1b6e28d92")
+	)
+	(junction
+		(at 99.06 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "626c2a0d-9e7b-4494-b5b4-3c19ab693893")
 	)
 	(junction
 		(at 146.05 149.86)
@@ -4243,6 +4255,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eea38286-956c-4718-8b9f-ce4b2d1e2cb3")
+	)
+	(junction
+		(at 99.06 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f113a0d8-25e8-44b7-9e6b-8614975af756")
 	)
 	(junction
 		(at 161.29 128.27)
@@ -4574,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 156.21) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3b53d7-4504-4a38-ba30-49e4f392804e")
+	)
+	(wire
+		(pts
 			(xy 266.7 125.73) (xy 266.7 132.08)
 		)
 		(stroke
@@ -4674,6 +4702,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 167.64) (xy 95.25 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b9fe5f-c2a5-4039-b002-b4b32ba6a040")
+	)
+	(wire
+		(pts
 			(xy 194.31 194.31) (xy 166.37 194.31)
 		)
 		(stroke
@@ -4711,6 +4749,16 @@
 			(type default)
 		)
 		(uuid "338a029d-d85c-417b-bfda-ff86b57362e6")
+	)
+	(wire
+		(pts
+			(xy 113.03 143.51) (xy 113.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349fad9a-972f-4f2b-852c-3d367459b130")
 	)
 	(wire
 		(pts
@@ -5014,6 +5062,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 156.21) (xy 99.06 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693ec686-c25d-40ac-a96b-95e904c32019")
+	)
+	(wire
+		(pts
 			(xy 330.2 101.6) (xy 330.2 102.87)
 		)
 		(stroke
@@ -5101,6 +5159,16 @@
 			(type default)
 		)
 		(uuid "7a4c0803-ff37-474f-b08a-1b77202e250e")
+	)
+	(wire
+		(pts
+			(xy 99.06 148.59) (xy 99.06 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b73c369-847a-4841-a819-8d14b325a57a")
 	)
 	(wire
 		(pts
@@ -5434,6 +5502,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 143.51) (xy 113.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2477b00-5375-4eda-a1b5-14dc313003d6")
+	)
+	(wire
+		(pts
 			(xy 251.46 125.73) (xy 266.7 125.73)
 		)
 		(stroke
@@ -5554,6 +5632,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 165.1) (xy 124.46 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0159b7f-7487-4096-8047-e80ed02c8e04")
+	)
+	(wire
+		(pts
 			(xy 179.07 107.95) (xy 190.5 107.95)
 		)
 		(stroke
@@ -5654,7 +5742,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 165.1) (xy 124.46 165.1)
+			(xy 95.25 165.1) (xy 99.06 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +6091,7 @@
 	)
 	(global_label "I2C0_SCL"
 		(shape bidirectional)
-		(at 113.03 165.1 180)
+		(at 95.25 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6013,7 +6101,7 @@
 		)
 		(uuid "9f7b3973-1618-4eda-9de2-9ed084275c43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.1645 165.1 0)
+			(at 82.3845 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6157,7 @@
 	)
 	(global_label "I2C0_SDA"
 		(shape bidirectional)
-		(at 113.03 167.64 180)
+		(at 95.25 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6079,7 +6167,7 @@
 		)
 		(uuid "f43ea3c6-0acc-48bd-bb4d-d61a1d0b3688")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.104 167.64 0)
+			(at 82.324 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RSL48_4P05X4P05"
 			(at 190.5 74.93 0)
 			(effects
 				(font
@@ -6600,7 +6688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 386.08 67.31 0)
 			(effects
 				(font
@@ -6648,7 +6736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1869e99b-9569-4070-a5d1-6ea6a893d7b5")
-		(property "Reference" "R4"
+		(property "Reference" "R11"
 			(at 170.434 201.422 0)
 			(effects
 				(font
@@ -6664,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.148 200.66 90)
 			(effects
 				(font
@@ -6700,7 +6788,7 @@
 		(instances
 			(project "openforge"
 				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/fee1a3f0-1fb6-4dc3-9a19-10db5903192c"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6864,7 +6952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 133.858 90)
 			(effects
 				(font
@@ -7332,7 +7420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 270.51 127.508 90)
 			(effects
 				(font
@@ -7641,6 +7729,73 @@
 		)
 	)
 	(symbol
+		(lib_id "MT41K256M16TW-107_P:R")
+		(at 113.03 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41ea5a94-09b8-446a-8b1c-21c319b5dc3b")
+		(property "Reference" "R4"
+			(at 117.094 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5/1%"
+			(at 119.126 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 114.808 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9df3f2b-f7d0-4ba6-91ff-537e1b897cb5")
+		)
+		(pin "1"
+			(uuid "8454395b-b56b-4bdb-929c-c5b0fd05213b")
+		)
+		(instances
+			(project "openforge"
+				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/fee1a3f0-1fb6-4dc3-9a19-10db5903192c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 233.68 200.66 0)
 		(unit 1)
@@ -7798,7 +7953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -8197,7 +8352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 304.8 77.978 90)
 			(effects
 				(font
@@ -8463,7 +8618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.148 213.36 90)
 			(effects
 				(font
@@ -8935,7 +9090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -9136,7 +9291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.668 99.06 90)
 			(effects
 				(font
@@ -9870,7 +10025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 256.54 152.4 0)
 			(effects
 				(font
@@ -9934,7 +10089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 270.51 121.158 90)
 			(effects
 				(font
@@ -10072,7 +10227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:KMR2xxG_CNK"
 			(at 140.97 110.49 0)
 			(effects
 				(font
@@ -10248,6 +10403,72 @@
 			(project "openforge"
 				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/fee1a3f0-1fb6-4dc3-9a19-10db5903192c"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VD")
+		(at 99.06 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6a39747-4b86-4356-8c16-53f21649025c")
+		(property "Reference" "#PWR0217"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_3V3A"
+			(at 95.504 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VD\""
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a208c766-7647-47e3-bb8c-dd02f8ae3943")
+		)
+		(instances
+			(project "openforge"
+				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/fee1a3f0-1fb6-4dc3-9a19-10db5903192c"
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -10613,7 +10834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 270.51 133.858 90)
 			(effects
 				(font
@@ -11349,7 +11570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RSL48_4P05X4P05"
 			(at 233.68 185.42 0)
 			(effects
 				(font
@@ -11738,6 +11959,73 @@
 	)
 	(symbol
 		(lib_id "MT41K256M16TW-107_P:R")
+		(at 99.06 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea21b2b3-d9b0-44c7-b535-68d3a33e0c34")
+		(property "Reference" "R3"
+			(at 103.124 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5/1%"
+			(at 105.156 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 100.838 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f07163c4-74a6-4717-bd77-c52dfa565fe9")
+		)
+		(pin "1"
+			(uuid "035c763a-a5d4-48c1-8249-388a5eb3d76a")
+		)
+		(instances
+			(project "openforge"
+				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/fee1a3f0-1fb6-4dc3-9a19-10db5903192c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MT41K256M16TW-107_P:R")
 		(at 300.99 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11761,7 +12049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 302.768 163.83 90)
 			(effects
 				(font
@@ -11829,7 +12117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:D8"
 			(at 118.11 194.31 0)
 			(effects
 				(font
@@ -12051,7 +12339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 246.38 138.43 0)
 			(effects
 				(font

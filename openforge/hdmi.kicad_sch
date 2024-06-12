@@ -8050,7 +8050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.79 143.002 90)
 			(effects
 				(font
@@ -9344,7 +9344,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 153.162 90)
 			(effects
 				(font
@@ -9814,7 +9814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.85 66.802 90)
 			(effects
 				(font
@@ -10620,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.102 176.53 90)
 			(effects
 				(font
@@ -11092,7 +11092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.79 140.462 90)
 			(effects
 				(font
@@ -11162,7 +11162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:FUS_RXEF010_TYCO_TYC"
 			(at 372.11 44.45 0)
 			(effects
 				(font
@@ -11803,7 +11803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.79 145.542 90)
 			(effects
 				(font

@@ -19319,7 +19319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:ZCZ0324A"
 			(at 278.13 171.45 0)
 			(effects
 				(font
@@ -20709,7 +20709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 217.17 163.83 0)
 			(effects
 				(font
@@ -25911,7 +25911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 328.93 250.19 0)
 			(effects
 				(font
@@ -25978,7 +25978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 342.392 248.92 90)
 			(effects
 				(font
@@ -26256,7 +26256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:ZCZ0324A"
 			(at 280.67 313.69 0)
 			(effects
 				(font

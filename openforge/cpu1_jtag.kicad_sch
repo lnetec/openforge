@@ -7458,6 +7458,174 @@
 				)
 			)
 		)
+		(symbol "MT41K256M16TW-107_P:Crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MT41K256M16TW-107_P:Crystal_GND23"
 			(pin_names
 				(offset 1.016) hide)
@@ -8872,6 +9040,12 @@
 		(uuid "930358d0-84b5-4a3e-a8cd-063a61ef261a")
 	)
 	(junction
+		(at 274.32 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "950d7cc7-3001-4d2c-920a-c5eb87f30863")
+	)
+	(junction
 		(at 388.62 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8964,14 +9138,6 @@
 	(no_connect
 		(at 200.66 68.58)
 		(uuid "9edc7da9-348b-48da-9065-c5393f81f744")
-	)
-	(no_connect
-		(at 147.32 85.09)
-		(uuid "9f063f4c-036f-407d-98d9-aa021f88ba7b")
-	)
-	(no_connect
-		(at 157.48 85.09)
-		(uuid "f1f30a63-779a-49fd-beac-380d79b67c9b")
 	)
 	(bus_entry
 		(at 204.47 123.19)
@@ -9730,6 +9896,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 342.9) (xy 274.32 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbbb417-b852-4d9c-91d6-2e2c2229e615")
+	)
+	(wire
+		(pts
 			(xy 200.66 181.61) (xy 219.71 181.61)
 		)
 		(stroke
@@ -10220,7 +10396,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 342.9) (xy 287.02 342.9)
+			(xy 264.16 342.9) (xy 274.32 342.9)
 		)
 		(stroke
 			(width 0)
@@ -12110,6 +12286,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 378.46) (xy 274.32 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec284e07-3d77-46fd-ba4e-1c62b75926de")
+	)
+	(wire
+		(pts
 			(xy 295.91 123.19) (xy 313.69 123.19)
 		)
 		(stroke
@@ -12117,6 +12303,16 @@
 			(type default)
 		)
 		(uuid "ec7bab1c-f593-4138-b15b-db8c248120de")
+	)
+	(wire
+		(pts
+			(xy 274.32 342.9) (xy 287.02 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb7f2b1-6bd5-4544-8ed9-43f826011292")
 	)
 	(wire
 		(pts
@@ -14829,7 +15025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 400.05 283.718 90)
 			(effects
 				(font
@@ -15093,7 +15289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 326.39 175.768 90)
 			(effects
 				(font
@@ -15229,7 +15425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 356.362 54.61 90)
 			(effects
 				(font
@@ -15296,7 +15492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 			(at 200.66 73.66 0)
 			(effects
 				(font
@@ -15508,7 +15704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 211.582 269.24 90)
 			(effects
 				(font
@@ -15713,7 +15909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 140.208 90)
 			(effects
 				(font
@@ -16114,7 +16310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 400.05 244.348 90)
 			(effects
 				(font
@@ -16181,7 +16377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 326.39 183.388 90)
 			(effects
 				(font
@@ -16447,7 +16643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 325.12 102.108 90)
 			(effects
 				(font
@@ -16581,7 +16777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:ZCZ0324A"
 			(at 257.81 173.99 0)
 			(effects
 				(font
@@ -17592,6 +17788,76 @@
 		)
 	)
 	(symbol
+		(lib_id "MT41K256M16TW-107_P:R")
+		(at 274.32 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ea2a96-2871-4c8b-91d6-7b232909776d")
+		(property "Reference" "R25"
+			(at 276.86 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 276.86 375.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 272.542 374.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9224d079-120f-426e-90bf-5b560b3501bc")
+		)
+		(pin "1"
+			(uuid "31d5f045-280d-43c3-97b1-3186f651d92a")
+		)
+		(instances
+			(project "openforge"
+				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/36c59a1a-0949-4719-9755-a87e14795491"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 396.24 226.06 90)
 		(unit 1)
@@ -17681,7 +17947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 326.39 180.848 90)
 			(effects
 				(font
@@ -17813,7 +18079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 326.39 178.308 90)
 			(effects
 				(font
@@ -17946,7 +18212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 199.898 90)
 			(effects
 				(font
@@ -18080,7 +18346,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 429.26 70.358 90)
 			(effects
 				(font
@@ -18335,7 +18601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:KMR2xxG_CNK"
 			(at 342.9 57.15 0)
 			(effects
 				(font
@@ -18474,7 +18740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 326.39 168.148 90)
 			(effects
 				(font
@@ -18544,7 +18810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.938 107.95 90)
 			(effects
 				(font
@@ -18611,7 +18877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 326.39 170.688 90)
 			(effects
 				(font
@@ -18679,7 +18945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DCK0005A_L"
 			(at 269.24 39.37 0)
 			(effects
 				(font
@@ -18893,7 +19159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DCK0005A_L"
 			(at 378.46 242.57 0)
 			(effects
 				(font
@@ -19270,6 +19536,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 274.32 381 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b04e7cca-6348-4577-aa5d-a80df3dc50e0")
+		(property "Reference" "#PWR0218"
+			(at 274.32 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca458d4-b153-4634-b7ca-a5d58a5aea39")
+		)
+		(instances
+			(project "openforge"
+				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/36c59a1a-0949-4719-9755-a87e14795491"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MT41K256M16TW-107_P:C")
 		(at 200.66 269.24 0)
 		(unit 1)
@@ -19363,7 +19694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 372.11 104.648 90)
 			(effects
 				(font
@@ -19553,7 +19884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb8c3781-5731-485c-bb62-f3200566dc90")
-		(property "Reference" "R3"
+		(property "Reference" "R24"
 			(at 299.72 344.1699 0)
 			(effects
 				(font
@@ -19571,7 +19902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 295.402 345.44 90)
 			(effects
 				(font
@@ -19607,7 +19938,7 @@
 		(instances
 			(project "openforge"
 				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/36c59a1a-0949-4719-9755-a87e14795491"
-					(reference "R3")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -19638,7 +19969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 137.668 90)
 			(effects
 				(font
@@ -19708,7 +20039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.312 345.44 90)
 			(effects
 				(font
@@ -19775,7 +20106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 326.39 165.608 90)
 			(effects
 				(font
@@ -19911,7 +20242,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 164.338 82.55 90)
 			(effects
 				(font
@@ -20085,6 +20416,75 @@
 		)
 	)
 	(symbol
+		(lib_id "MT41K256M16TW-107_P:Crystal")
+		(at 152.4 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee54c21-097c-4fec-bf08-1c0eb776b154")
+		(property "Reference" "Y2"
+			(at 144.78 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "24MHz/20p"
+			(at 138.176 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a9bedd-b1d9-42ac-99fa-b7703dea69dd")
+		)
+		(pin "2"
+			(uuid "137ecd86-0da9-45ca-81b1-4f922655ae61")
+		)
+		(instances
+			(project ""
+				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/36c59a1a-0949-4719-9755-a87e14795491"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MT41K256M16TW-107_P:C")
 		(at 137.16 90.17 180)
 		(unit 1)
@@ -20179,7 +20579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.99 60.198 90)
 			(effects
 				(font
@@ -20246,7 +20646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 326.39 173.228 90)
 			(effects
 				(font
@@ -20314,7 +20714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DCT0008A_L"
 			(at 402.59 73.66 0)
 			(effects
 				(font
@@ -20401,7 +20801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 382.27 108.458 90)
 			(effects
 				(font
@@ -20438,79 +20838,6 @@
 			(project "openforge"
 				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/36c59a1a-0949-4719-9755-a87e14795491"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MT41K256M16TW-107_P:Crystal_GND23")
-		(at 152.4 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb6301af-3d06-4590-9ae2-37949bade1af")
-		(property "Reference" "Y2"
-			(at 143.002 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24MHz/20p"
-			(at 145.034 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
-			(at 152.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "60b57acf-8b4d-4485-9a19-76a74f73b560")
-		)
-		(pin "2"
-			(uuid "1bc89662-c710-49be-91c9-8f04f0441b97")
-		)
-		(pin "1"
-			(uuid "13f8a678-c531-411d-80e5-4fc4d6fb9169")
-		)
-		(pin "3"
-			(uuid "d5e35ac8-3741-4c4e-b973-9db7d328a3ee")
-		)
-		(instances
-			(project "openforge"
-				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/36c59a1a-0949-4719-9755-a87e14795491"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -20885,7 +21212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 208.788 90)
 			(effects
 				(font
