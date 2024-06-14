@@ -239,7 +239,7 @@
 		)
 		(uuid "4683a84f-556a-459a-b2da-59daa85d097c")
 	)
-	(text_box "1. On BBB, pin A2 VDD_MPU_MON is not connected, as per datasheet if not used\n   should be connected to VDD_MPU.\n\n2. Ethernet LAN8710 phy pins do not match straight signal.\n   Assuming MDIX will take care.\n\n3. On BBB M5, M15, F16, P18 are open - not connected to NC.\n\n4. Label SYS_RESETn present only on jtag connector, added label to coonect\n   jtag reset to global SYS_RESETn to AM335X pin A10.\n\n5. In LED,Configuration and Reset sheet Q1 and Q2 can have base resistors.\n   This will enable replace Q1,Q2 with transistors not having internal base resistor."
+	(text_box "1. On BBB, pin A2 VDD_MPU_MON is not connected, as per datasheet, if not used\n   should be connected to VDD_MPU.\n\n2. Ethernet LAN8710 phy pins do not match straight signal.\n   Assuming MDIX will take care.\n\n3. On BBB M5, M15, F16, P18 are open - not connected to NC.\n\n4. Label SYS_RESETn present only on jtag connector, added label to coonect\n   jtag reset to global SYS_RESETn to AM335X pin A10.\n\n5. In LED,Configuration and Reset sheet Q1 and Q2 can have base resistors.\n   This will enable replace Q1,Q2 with transistors not having internal base resistor."
 		(exclude_from_sim no)
 		(at 40.64 35.56 0)
 		(size 151.13 38.1)

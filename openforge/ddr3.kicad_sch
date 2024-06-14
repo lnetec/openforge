@@ -7123,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MT41K256M16TW-107_P:BGA96C80P9X16_1400X800X120"
+		(property "Footprint" "footprints:BGA96C80P9X16_1400X800X120"
 			(at 261.62 143.51 0)
 			(effects
 				(font

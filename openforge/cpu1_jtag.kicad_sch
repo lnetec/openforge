@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
+			(property "Reference" "U3"
+				(at 11.43 6.3186 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,14 +21,14 @@
 				)
 			)
 			(property "Value" "74LVC1G06"
-				(at 2.54 -7.62 0)
+				(at 11.43 3.7786 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:DCK0005A_L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -112,6 +112,24 @@
 				)
 			)
 			(symbol "74LVC1G06_1_1"
+				(pin no_connect line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -15.24 0 0)
 					(length 7.62)
@@ -19197,6 +19215,9 @@
 		)
 		(pin "5"
 			(uuid "a9e2aa01-bf2a-4764-9606-3ffad35fe5af")
+		)
+		(pin "1"
+			(uuid "65eddca5-297c-412a-8224-7c3af18fda06")
 		)
 		(instances
 			(project "openforge"

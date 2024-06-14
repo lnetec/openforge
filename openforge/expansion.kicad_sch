@@ -2803,12 +2803,6 @@
 		(uuid "6a98c999-0113-4d0a-92ce-53a48dc1503b")
 	)
 	(junction
-		(at 175.26 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d4ea2c1-1cae-4781-8671-2459e7d356c1")
-	)
-	(junction
 		(at 91.44 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2897,6 +2891,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd19e8aa-ea34-4e4f-a046-790d65544c75")
+	)
+	(no_connect
+		(at 168.91 210.82)
+		(uuid "136d67e8-1c45-4712-a1de-d6a5f58e99ea")
 	)
 	(wire
 		(pts
@@ -3520,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 210.82) (xy 175.26 213.36)
+			(xy 175.26 208.28) (xy 175.26 213.36)
 		)
 		(stroke
 			(width 0)
@@ -4260,16 +4258,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 208.28) (xy 175.26 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12f611c-2775-4a04-8c2a-a56bec3788fa")
-	)
-	(wire
-		(pts
 			(xy 308.61 72.39) (xy 349.25 72.39)
 		)
 		(stroke
@@ -4557,16 +4545,6 @@
 			(type default)
 		)
 		(uuid "de84caf1-20f0-4a26-823b-82c368b398f0")
-	)
-	(wire
-		(pts
-			(xy 168.91 210.82) (xy 175.26 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df5a383f-351b-4828-85e4-5ca610805ffd")
 	)
 	(wire
 		(pts
@@ -6824,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x23_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical"
 			(at 111.76 82.55 0)
 			(effects
 				(font
@@ -7090,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:yl004-030-001"
 			(at 200.66 177.8 0)
 			(effects
 				(font
@@ -9149,7 +9127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x23_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical"
 			(at 300.99 82.55 0)
 			(effects
 				(font

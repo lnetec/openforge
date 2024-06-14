@@ -5710,7 +5710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EMMC04G-W627-M06U:BGA153N50P14X14_1300X1150X100N"
+		(property "Footprint" "footprints:BGA153N50P14X14_1300X1150X100N"
 			(at 270.51 97.79 0)
 			(effects
 				(font
@@ -7334,7 +7334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EMMC04G-W627-M06U:BGA153N50P14X14_1300X1150X100N"
+		(property "Footprint" "footprints:BGA153N50P14X14_1300X1150X100N"
 			(at 273.05 243.84 0)
 			(effects
 				(font

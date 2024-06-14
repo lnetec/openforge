@@ -10020,7 +10020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDA19988BHN_C1_557:QFN50P900X900X100-65N"
+		(property "Footprint" "footprints:QFN50P900X900X100-65N"
 			(at 146.05 101.6 0)
 			(effects
 				(font

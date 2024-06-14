@@ -44,7 +44,7 @@
 		)
 	)
 	(sheet
-		(at 101.854 24.892)
+		(at 152.654 23.622)
 		(size 24.892 26.416)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +56,7 @@
 		)
 		(uuid "36c59a1a-0949-4719-9755-a87e14795491")
 		(property "Sheetname" "CPU1 And JTAG"
-			(at 101.854 24.1804 0)
+			(at 152.654 22.9104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu1_jtag.kicad_sch"
-			(at 101.854 51.8926 0)
+			(at 152.654 50.6226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +272,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 25.4)
+		(at 50.8 24.13)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -284,7 +284,7 @@
 		)
 		(uuid "b914f331-35b7-444f-9be9-cfd77a78636a")
 		(property "Sheetname" "Notes"
-			(at 203.2 24.6884 0)
+			(at 50.8 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +293,7 @@
 			)
 		)
 		(property "Sheetfile" "notes.kicad_sch"
-			(at 203.2 51.3846 0)
+			(at 50.8 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +348,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 25.4)
+		(at 203.2 24.13)
 		(size 25.4 25.654)
 		(fields_autoplaced yes)
 		(stroke
@@ -360,7 +360,7 @@
 		)
 		(uuid "d2ec2b42-36fe-4830-834e-bcc2c17def23")
 		(property "Sheetname" "CPU2, USB AND Serial"
-			(at 152.4 24.6884 0)
+			(at 203.2 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,7 +369,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu2_usb_serial.kicad_sch"
-			(at 152.4 51.6386 0)
+			(at 203.2 50.3686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,7 +386,7 @@
 		)
 	)
 	(sheet
-		(at 50.292 25.654)
+		(at 101.092 24.384)
 		(size 26.162 25.908)
 		(fields_autoplaced yes)
 		(stroke
@@ -398,7 +398,7 @@
 		)
 		(uuid "fee1a3f0-1fb6-4dc3-9a19-10db5903192c")
 		(property "Sheetname" "Power Management"
-			(at 50.292 24.9424 0)
+			(at 101.092 23.6724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +407,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 50.292 52.1466 0)
+			(at 101.092 50.8766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
