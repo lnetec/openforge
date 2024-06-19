@@ -8487,7 +8487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:LPJ0011BBNL_LPP"
+		(property "Footprint" "footprints:7499010211A_WRE"
 			(at 304.8 90.424 0)
 			(effects
 				(font
@@ -11209,7 +11209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 321.31 122.682 90)
 			(effects
 				(font

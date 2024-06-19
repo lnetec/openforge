@@ -13192,6 +13192,17 @@
 		)
 		(uuid "b8ce2534-32bf-46fc-bbc8-160e64c18679")
 	)
+	(label "GND_OSC1"
+		(at 208.28 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba1d1b48-177a-425a-99ea-1dcefb9f3f0a")
+	)
 	(label "DDR_A2"
 		(at 210.82 120.65 0)
 		(fields_autoplaced yes)
@@ -15510,7 +15521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
+		(property "Footprint" "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm"
 			(at 200.66 73.66 0)
 			(effects
 				(font
@@ -18497,7 +18508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x10_P1.27mm_Vertical_SMD"
+		(property "Footprint" "footprints:header-10x2-1.27"
 			(at 256.54 353.06 0)
 			(effects
 				(font
@@ -20735,7 +20746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DCT0008A_L"
+		(property "Footprint" "footprints:DCT8"
 			(at 402.59 73.66 0)
 			(effects
 				(font
@@ -21022,7 +21033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm"
 			(at 375.92 290.83 0)
 			(effects
 				(font

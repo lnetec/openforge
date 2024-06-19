@@ -14030,7 +14030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DCT8"
+		(property "Footprint" "footprints:DCU8"
 			(at 146.05 153.67 0)
 			(effects
 				(font
@@ -15956,7 +15956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
 			(at 55.5752 288.29 0)
 			(effects
 				(font
