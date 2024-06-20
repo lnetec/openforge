@@ -17881,7 +17881,7 @@
 		(uuid "c2cb7632-bd19-420b-943f-07365812cccb")
 	)
 	(label "TESTOUT"
-		(at 321.31 245.11 0)
+		(at 322.58 245.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20709,7 +20709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 217.17 163.83 0)
 			(effects
 				(font
@@ -25911,7 +25911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 328.93 250.19 0)
 			(effects
 				(font
