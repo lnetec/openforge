@@ -1967,6 +1967,138 @@
 				)
 			)
 		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2043,174 +2175,6 @@
 				)
 			)
 			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GNDPWR"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -4854,6 +4818,16 @@
 		)
 		(uuid "6797decf-a851-44af-9621-970c7f02bc85")
 	)
+	(text "ESD_RING"
+		(exclude_from_sim no)
+		(at 333.248 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "697f9063-935d-4023-86d4-c03239e3932a")
+	)
 	(text "TI_SN74AHC1G09DCKR:\nSingle 2-Input Positive-AND Gate\nWith Open-Drain Output,\nWith Schmitt-Trigger Action at All Inputs"
 		(exclude_from_sim no)
 		(at 123.19 236.982 0)
@@ -5988,7 +5962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 117.348 90)
 			(effects
 				(font
@@ -6058,7 +6032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 187.6552 237.49 0)
 			(effects
 				(font
@@ -6193,7 +6167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints:C_0805_2012Metric"
 			(at 195.2752 57.15 0)
 			(effects
 				(font
@@ -6263,7 +6237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 236.982 77.47 90)
 			(effects
 				(font
@@ -6333,7 +6307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 176.022 148.59 90)
 			(effects
 				(font
@@ -6467,7 +6441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 312.42 84.1248 0)
 			(effects
 				(font
@@ -6537,7 +6511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 379.222 38.1 90)
 			(effects
 				(font
@@ -6607,7 +6581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 252.222 77.47 90)
 			(effects
 				(font
@@ -6674,7 +6648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 127.508 90)
 			(effects
 				(font
@@ -6741,7 +6715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 114.808 90)
 			(effects
 				(font
@@ -6811,7 +6785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 282.702 77.47 90)
 			(effects
 				(font
@@ -6925,7 +6899,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "294514b2-db33-44b2-9d4e-bb6088ee6e7b")
 		(property "Reference" "R140"
 			(at 69.596 137.16 90)
@@ -6943,7 +6917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 140.208 90)
 			(effects
 				(font
@@ -6980,72 +6954,6 @@
 			(project "openforge"
 				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/cc18cf2b-23ac-430c-b51c-b6a4d783027b"
 					(reference "R140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 332.74 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bcab3c4-e387-4cbf-bc46-ab7b78f8a730")
-		(property "Reference" "#PWR0167"
-			(at 332.74 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ESD_RING"
-			(at 332.613 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 332.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8842782c-8f5d-49ef-abff-5595e8ca1633")
-		)
-		(instances
-			(project ""
-				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/cc18cf2b-23ac-430c-b51c-b6a4d783027b"
-					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -7210,7 +7118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 296.672 77.47 90)
 			(effects
 				(font
@@ -7408,7 +7316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 99.568 90)
 			(effects
 				(font
@@ -7674,7 +7582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 180.0352 57.15 0)
 			(effects
 				(font
@@ -7807,7 +7715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 130.048 90)
 			(effects
 				(font
@@ -7874,7 +7782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 64.008 153.67 90)
 			(effects
 				(font
@@ -7944,7 +7852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 283.972 41.91 90)
 			(effects
 				(font
@@ -8011,7 +7919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 109.728 90)
 			(effects
 				(font
@@ -8146,7 +8054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 367.792 114.3 90)
 			(effects
 				(font
@@ -8195,7 +8103,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "62b10667-9fb5-4c8b-86bc-9a4db9453de1")
 		(property "Reference" "R141"
 			(at 69.596 144.78 90)
@@ -8213,7 +8121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 147.828 90)
 			(effects
 				(font
@@ -8349,7 +8257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 158.4452 213.36 0)
 			(effects
 				(font
@@ -8419,7 +8327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 252.222 121.92 90)
 			(effects
 				(font
@@ -8726,7 +8634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 195.2752 80.01 0)
 			(effects
 				(font
@@ -8793,7 +8701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 119.888 90)
 			(effects
 				(font
@@ -9005,7 +8913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 122.428 90)
 			(effects
 				(font
@@ -9075,7 +8983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 218.1352 106.68 0)
 			(effects
 				(font
@@ -9145,7 +9053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 233.3752 106.68 0)
 			(effects
 				(font
@@ -9215,7 +9123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 117.602 71.12 90)
 			(effects
 				(font
@@ -9285,7 +9193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 271.272 41.91 90)
 			(effects
 				(font
@@ -9516,7 +9424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 97.028 90)
 			(effects
 				(font
@@ -9847,7 +9755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 202.8952 106.68 0)
 			(effects
 				(font
@@ -9962,7 +9870,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9df76652-f57f-4435-9a40-f53e5ab452a6")
 		(property "Reference" "R124"
 			(at 69.596 129.54 90)
@@ -9980,7 +9888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 132.588 90)
 			(effects
 				(font
@@ -10115,7 +10023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 377.952 114.3 90)
 			(effects
 				(font
@@ -10185,7 +10093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 122.682 212.09 90)
 			(effects
 				(font
@@ -10252,7 +10160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 102.108 90)
 			(effects
 				(font
@@ -10322,7 +10230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 366.522 38.1 90)
 			(effects
 				(font
@@ -10392,7 +10300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 63.1952 172.72 0)
 			(effects
 				(font
@@ -10525,7 +10433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 94.488 90)
 			(effects
 				(font
@@ -10595,7 +10503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 191.262 148.59 90)
 			(effects
 				(font
@@ -10665,7 +10573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 267.462 77.47 90)
 			(effects
 				(font
@@ -10800,7 +10708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 296.672 41.91 90)
 			(effects
 				(font
@@ -10870,7 +10778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 184.912 213.36 90)
 			(effects
 				(font
@@ -10937,7 +10845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 107.188 90)
 			(effects
 				(font
@@ -11004,7 +10912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 89.408 90)
 			(effects
 				(font
@@ -11142,7 +11050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 187.6552 106.68 0)
 			(effects
 				(font
@@ -11345,7 +11253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 91.1352 172.72 0)
 			(effects
 				(font
@@ -11412,7 +11320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 112.268 90)
 			(effects
 				(font
@@ -11479,7 +11387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 76.2 91.948 90)
 			(effects
 				(font
@@ -11549,7 +11457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 258.572 41.91 90)
 			(effects
 				(font
@@ -11751,7 +11659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 164.7952 57.15 0)
 			(effects
 				(font
@@ -11821,7 +11729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 180.0352 80.01 0)
 			(effects
 				(font
@@ -11891,7 +11799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 98.7552 57.15 0)
 			(effects
 				(font
@@ -11961,7 +11869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 353.822 38.1 90)
 			(effects
 				(font
@@ -12028,7 +11936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 110.49 147.828 90)
 			(effects
 				(font
@@ -12065,6 +11973,72 @@
 			(project "openforge"
 				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/cc18cf2b-23ac-430c-b51c-b6a4d783027b"
 					(reference "R142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 332.74 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe70c312-d1d3-4929-9b5b-9f7895992ebb")
+		(property "Reference" "#PWR0219"
+			(at 332.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 332.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 332.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85e68102-5ff9-435e-b3fe-7294da567fb1")
+		)
+		(instances
+			(project ""
+				(path "/1648246a-cfdb-455c-9060-87fd156f3ecc/cc18cf2b-23ac-430c-b51c-b6a4d783027b"
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
